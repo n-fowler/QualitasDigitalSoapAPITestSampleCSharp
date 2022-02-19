@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualitasDigitalSoapAPITestSampleCSharp", "QualitasDigitalSoapAPITestSampleCSharp\QualitasDigitalSoapAPITestSampleCSharp.csproj", "{A2EDE33F-D31F-4FE9-8A8E-61610C59690B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2EDE33F-D31F-4FE9-8A8E-61610C59690B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EDE33F-D31F-4FE9-8A8E-61610C59690B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EDE33F-D31F-4FE9-8A8E-61610C59690B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EDE33F-D31F-4FE9-8A8E-61610C59690B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD08D70A-68C6-4063-BCCA-E144F24D7F90}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\TestData\SoapTestDataCapitalCity.xml" />
+    <None Remove="src\TestData\SoapTestDataCountryCurrency.xml" />
+    <None Remove="src\TestData\SoapTestDataCountryFlag.xml" />
+    <None Remove="src\TestData\SoapTestDataCountryPhoneCode.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="src\TestData\SoapTestDataCapitalCity.xml" />
+    <EmbeddedResource Include="src\TestData\SoapTestDataCountryCurrency.xml" />
+    <EmbeddedResource Include="src\TestData\SoapTestDataCountryFlag.xml" />
+    <EmbeddedResource Include="src\TestData\SoapTestDataCountryPhoneCode.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="src\TestData\SoapTestDataCapitalCity.xml" />
+  </ItemGroup>
+
+</Project>
